@@ -1,0 +1,231 @@
+.space-mono-regular {
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .besley-regular {
+    font-family: "Besley", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .section { 
+    background: #F9FDFE;
+  }
+
+  #tags {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    padding: 30px;
+  }
+
+
+  .btn{
+  display: flex;
+  padding: 4px;
+  align-items: flex-start;
+  cursor: pointer;
+  gap: 10px;
+  border-radius: 2px;
+  border: none;
+  outline: none;
+  font-family: "Space Mono";
+font-size: 0.75rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+  }
+
+  .btn.fashion {
+    background: #E3FFDA;
+    border: 1px solid #F9FDFE;
+  color: #138700;
+  }
+  .btn.interior {
+  background: #FDE5FF;
+  color: #7C0087;
+  border: 1px solid #F9FDFE;
+  }
+    .btn.books {
+    border: 1px solid #F9FDFE;
+      background: #FFE9BF;
+    color: #D86903;
+      }
+
+.btn.all {
+      border: 1px solid #F9FDFE;
+      background: #DAEBFF;
+    color: #0050AF;
+}
+
+
+.btn.music {
+  border: 1px solid #F9FDFE;
+      background: #FFD7D7;
+    color: #C00101;
+}
+
+
+
+.btn.all:active{
+  border: 1px solid #0050AF;
+}
+
+.btn.books:active{
+  border: 1px solid #D86903;
+}
+
+.btn.fashion:active{
+  border: 1px solid #138700;
+}
+
+.btn.interior:active{
+  border: 1px solid #7C0087;
+}
+
+.btn.all:active{
+  border: 1px solid #0050AF;
+}
+
+.btn.books:active{
+  border: 1px solid #D86903;
+}
+
+.btn.fashion:active{
+  border: 1px solid #138700;
+}
+
+.btn.interior:active{
+  border: 1px solid #7C0087;
+}
+
+
+
+.btn.all:hover{
+  border: 1px solid #0050AF;
+}
+
+.btn.books:hover{
+  border: 1px solid #D86903;
+}
+
+.btn.fashion:hover{
+  border: 1px solid #138700;
+}
+
+.btn.interior:hover{
+  border: 1px solid #7C0087;
+}
+
+.btn.all:hover{
+  border: 1px solid #0050AF;
+}
+
+.btn.books:hover{
+  border: 1px solid #D86903;
+}
+
+.btn.fashion:hover{
+  border: 1px solid #138700;
+}
+
+.btn.interior:hover{
+  border: 1px solid #7C0087;
+}
+
+.btn.music:hover {
+  border: 1px solid #C00101;
+}
+
+
+
+
+.card-container {
+  display: flex;
+max-width: 1800px;
+justify-content: center;
+align-items: flex-start;
+align-content: flex-start;
+gap: 20px;
+flex-wrap: wrap;
+}
+
+.card-img{
+  position: relative;
+  width: 100%;
+}
+
+.card-txt{
+  display: flex;
+padding: 20px 16px;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+gap: 10px;
+align-self: stretch;
+}
+
+.card {
+  text-decoration: none;
+  width: 18rem;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: stretch;
+  border-radius: 0.25rem;
+  border: 1px solid #D2D5D6;
+  margin: 10px;
+  opacity: 1;
+  transition: opacity 0.5s ease; /* Adicionando transição de opacidade */
+}
+
+.card:hover {
+  border: 1px solid #AAAAAA;
+}
+
+.card.hidden {
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.5s ease;
+  display: none; /* Removendo elementos do layout quando ocultos */
+}
+
+.card.active {
+    display: none;
+}
+
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.title{
+font-family: "Besley";
+color: rgba(0, 0, 0, 0.90);
+font-size: 1rem;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.48px;
+text-transform: uppercase;
+text-decoration: none;
+font-optical-sizing: auto;
+font-weight: 400;
+font-style: normal;
+width: 15rem;
+height: 4rem;
+}
+
+
+.header-title{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding-top: 40px;
+}
