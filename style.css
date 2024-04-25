@@ -145,6 +145,52 @@ text-transform: uppercase;
 
 
 
+.btn.all:focus{
+  border: 1px solid #0050AF;
+  background-color: #F9FDFE;
+}
+
+.btn.books:focus{
+  border: 1px solid #D86903;
+  background-color: #F9FDFE;
+}
+
+.btn.fashion:focus{
+  border: 1px solid #138700;
+  background-color: #F9FDFE;
+}
+
+.btn.interior:focus{
+  border: 1px solid #7C0087;
+  background-color: #F9FDFE;
+}
+
+.btn.all:focus{
+  border: 1px solid #0050AF;
+  background-color: #F9FDFE;
+}
+
+.btn.books:focus{
+  border: 1px solid #D86903;
+  background-color: #F9FDFE;
+}
+
+.btn.fashion:focus{
+  border: 1px solid #138700;
+  background-color: #F9FDFE;
+}
+
+.btn.interior:focus{
+  border: 1px solid #7C0087;
+  background-color: #F9FDFE;
+}
+
+.btn.music:focus {
+  border: 1px solid #C00101;
+  background-color: #F9FDFE;
+}
+
+
 
 .card-container {
   display: flex;
@@ -228,4 +274,18 @@ height: 4rem;
   align-items: center;
   gap: 20px;
   padding-top: 40px;
+}
+
+
+@media screen and (max-width: 450px) {
+
+
+#tags {
+  gap: 20px;
+  padding: 30px 0px 30px 0px;
+}
+
+.title{
+  font-size: .9rem;
+}
 }
