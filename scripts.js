@@ -87,6 +87,19 @@ const products = [
         tag: "music",
         link: "https://black-country-new-road.myshopify.com/products/live-at-bush-hall-lp-bcn"
     },
+    {
+        name: "LIGHTNING MCQUEEN crocs",
+        image: "img/crocs.png",
+        tag: "fashion",
+        link: "https://www.crocs.com/p/disneypixar-lightning-mcqueen-adult-clog/205759.html"
+    },
+    {
+        name: "aphex twin - syro",
+        image: "img/aphex twin.png",
+        tag: "music",
+        link: "https://aphextwin.warp.net/release/71106-aphex-twin-syro"
+    },
+    
 
     // Adicione mais produtos conforme necessário
 ];

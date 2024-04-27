@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head> 
+    
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
@@ -8,14 +9,34 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400..900;1,400..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 <link rel="icon" type="image/svg+xml" sizes="any"        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🛒</text></svg>"/>
-        
+
     <title> gerber.wishes </title> 
+    <style>
+        /* Estilos para a imagem */
+        .header-title img {
+            transition: transform 0.3s ease; /* Adiciona uma transição suave */
+        }
+    </style>
 </head>
 <body>
-<section class="section">
-   <div class="header-title">
-    <img src="img/gerber.WISHES.svg">
+    <section class="section">
+        <div class="header-title">
+            <img id="header-img" src="img/gerber.whishes_2.svg">
    </div>
+   <script>
+    // Função para ajustar dinamicamente o tamanho da imagem com base no scroll
+    window.addEventListener('scroll', function() {
+        var headerImg = document.getElementById('header-img');
+        var scrollPosition = window.scrollY;
+        var newSize = 100 - (scrollPosition * 0.1); // Ajuste o fator de escala conforme necessário
+
+        // Limita o tamanho mínimo da imagem
+        newSize = Math.max(newSize, 50); // Define o tamanho mínimo como 50%
+
+        // Aplica a transformação de escala à imagem
+        headerImg.style.transform = 'scale(' + (newSize / 100) + ')';
+    });
+</script>
     <div id="tags">
         <button class="btn all" data-tag="all">Show All</button>
         <button class="btn fashion" data-tag="fashion">Fashion</button>
