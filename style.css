@@ -289,18 +289,15 @@ height: 4rem;
   justify-content: space-around;
 }
 
+.card {
+  width: auto;
+  margin: 0;
+}
+
 .title{
   font-size: .9rem;
   width: auto;
-}
-
-.card{
-  width: 40%; 
-  margin: 10px;
-}
-
-.card-container{
-  justify-content: space-between;
+  height: auto;
 }
 
 .header-title{
