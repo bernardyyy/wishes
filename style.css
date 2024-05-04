@@ -235,6 +235,8 @@ align-self: stretch;
   border: 1px solid #AAAAAA;
 }
 
+
+
 .card.hidden {
   opacity: 0;
   pointer-events: none;
@@ -271,8 +273,11 @@ height: 4rem;
 
 .header-title{
   display: flex;
+  transform-origin: bottom;
+  transition: transform 0.3s ease;
   flex-direction: column;
   align-items: stretch;
+  justify-content: end;
   gap: 20px;
   padding-top: 100px;
 }
@@ -295,8 +300,8 @@ height: 4rem;
 }
 
 .title{
-  font-size: .9rem;
-  width: auto;
+  font-size: 1.1rem;
+  width: 60%;
   height: auto;
 }
 
