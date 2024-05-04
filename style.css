@@ -288,6 +288,9 @@ height: 4rem;
 
 @media screen and (max-width: 450px) {
 
+.section {
+overflow: hidden;
+}
 
 #tags {
   gap: 20px;
@@ -301,8 +304,8 @@ height: 4rem;
 }
 
 .title{
-  font-size: 1.5rem;
-  width: auto;
+  font-size: 1.3rem;
+  width: 60%;
   height: auto;
 }
 
