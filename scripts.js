@@ -105,8 +105,17 @@ const products = [
         tag: "books",
         link: "https://www.counter-print.co.uk/collections/all-books/products/rave-logos"
 
-    }
+    },
     
+    {
+        name: "APARTAMENTO TRAVEL BAG",
+        image: "img/apartamento.png",
+        tag: "fashion",
+        link: "https://www.apartamentomagazine.com/product/apartamento-travel-bag/"
+
+    }
+
+
 
     // Adicione mais produtos conforme necessário
 ];
@@ -173,39 +182,3 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     }
 });
-
-function calcularCorPredominante(card, produto) {
-    var img = new Image();
-    img.crossOrigin = "Anonymous";
-    img.src = produto.image;
-
-    img.onload = function() {
-        var colorThief = new ColorThief();
-        var corPredominante = colorThief.getColor(img);
-
-        // Aplica a cor predominante como fundo do card ao passar o mouse sobre ele
-        card.addEventListener('mouseenter', function() {
-            this.style.backgroundColor = 'rgb(' + corPredominante.join(', ') + ')';
-        });
-
-        card.addEventListener('mouseleave', function() {
-            this.style.backgroundColor = '';
-        });
-    };
-}
-document.addEventListener("DOMContentLoaded", function() {
-    const cardContainer = document.querySelector(".card-container");
-
-    products.forEach(product => {
-        const productHTML = generateProductHTML(product);
-        cardContainer.insertAdjacentHTML("beforeend", productHTML);
-    });
-
-    const cards = document.querySelectorAll('.card');
-    cards.forEach((card, index) => {
-        calcularCorPredominante(card, products[index]);
-    });
-});
-
-
-
