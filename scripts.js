@@ -1,6 +1,3 @@
-
-
-// Dados dos produtos
 const products = [
     {
         name: "LACOSTE OMBRÉ EFFECT ALPACA WOOL SWEATER",
@@ -106,16 +103,15 @@ const products = [
         link: "https://www.counter-print.co.uk/collections/all-books/products/rave-logos"
 
     },
-    
+
     {
-        name: "APARTAMENTO TRAVEL BAG",
+        name: "Apartamento Bag Travel",
         image: "img/apartamento.png",
         tag: "fashion",
         link: "https://www.apartamentomagazine.com/product/apartamento-travel-bag/"
 
     }
-
-
+    
 
     // Adicione mais produtos conforme necessário
 ];
