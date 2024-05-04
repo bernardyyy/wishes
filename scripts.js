@@ -110,6 +110,13 @@ const products = [
         tag: "fashion",
         link: "https://www.apartamentomagazine.com/product/apartamento-travel-bag/"
 
+    },
+    {
+        name: "Comme des Garçons Homme Plus",
+        image: "img/cdg.png",
+        tag: "fashion",
+        link: "https://www.farfetch.com/pt/shopping/men/comme-des-garcons-homme-plus-pleat-detail-tailored-shorts-item-23278702.aspx?storeid=9671&rtype=inspire_portal_plp_generic_a&rpos=2&rid=9e309a06-0e4f-438e-b436-a51f4d3707cf"
+
     }
     
 
