@@ -117,6 +117,12 @@ const products = [
         tag: "fashion",
         link: "https://www.farfetch.com/pt/shopping/men/comme-des-garcons-homme-plus-pleat-detail-tailored-shorts-item-23278702.aspx?storeid=9671&rtype=inspire_portal_plp_generic_a&rpos=2&rid=9e309a06-0e4f-438e-b436-a51f4d3707cf"
 
+    },
+    {
+        name: "FOOTBALL — Middle East Archive",
+        image: "img/football-mea.png",
+        tag: "books",
+        link: "https://middleastarchive.com/product/football-%d9%83%d8%b1%d8%a9-%d8%a7%d9%84%d9%82%d8%af%d9%85/"
     }
     
 
