@@ -78,12 +78,7 @@ const products = [
         tag: "interior",
         link: "https://www.knoll.com/product/wassily-chair"
     },
-    {
-        name: "Black Country, New Road — Live at Bush Hall",
-        image: "img/black-country.png",
-        tag: "music",
-        link: "https://black-country-new-road.myshopify.com/products/live-at-bush-hall-lp-bcn"
-    },
+
     {
         name: "LIGHTNING MCQUEEN crocs",
         image: "img/crocs.png",
@@ -111,18 +106,47 @@ const products = [
         link: "https://www.apartamentomagazine.com/product/apartamento-travel-bag/"
 
     },
-    {
-        name: "Comme des Garçons Homme Plus",
-        image: "img/cdg.png",
-        tag: "fashion",
-        link: "https://www.farfetch.com/pt/shopping/men/comme-des-garcons-homme-plus-pleat-detail-tailored-shorts-item-23278702.aspx?storeid=9671&rtype=inspire_portal_plp_generic_a&rpos=2&rid=9e309a06-0e4f-438e-b436-a51f4d3707cf"
 
-    },
     {
         name: "FOOTBALL — Middle East Archive",
         image: "img/football-mea.png",
         tag: "books",
         link: "https://middleastarchive.com/product/football-%d9%83%d8%b1%d8%a9-%d8%a7%d9%84%d9%82%d8%af%d9%85/"
+    },
+
+    {
+        name: "Geordie Greep - The New Sound",
+        image: "img/geordie-greep.png",
+        tag: "music",
+        link: "https://shop.roughtraderecords.com/release/469033-geordie-greep-the-new-sound?ffm=FFM_ccfb1e0bde4e862a03f560b84d51f43d"
+    },
+
+    {
+        name: "Acne Studios Wrap over trousers",
+        image: "img/acne-studios.png",
+        tag: "fashion",
+        link: "https://www.acnestudios.com/us/en/wrap-over-trousers-black/BK0645-900.html?srsltid=AfmBOoqvKP5VG-a1l5QHqGf2oHV0ivgZik-ZWTEbkRxEKBbkAGkHB1ez"
+    },
+
+    {
+        name: "Charli XCX - Brat",
+        image: "img/charli-xcx.png",
+        tag: "music",
+        link: "https://www.fnac.pt/Charli-XCX-Brat-LP-Black-Ice-Vinil-Vinil/a11968434?origin=google_pla_musica&gad_source=1&gclid=Cj0KCQjwsJO4BhDoARIsADDv4vCh4URxyuxJo38QMT3u0dlFgRu-LSjIjEtxLm64Yq0CMnJ6I5ZLLvsaAuZ6EALw_wcB"
+    },
+
+    {
+        name: "Pas Normal x Oakley Mechanism Jersey",
+        image: "img/pas-normal.png",
+        tag: "fashion",
+        link: "https://pasnormalstudios.com/jp/products/mens-oakley-mechanism-jersey-black-olive"
+    },
+
+    {
+        name: "Prada large leather shoulder bag",
+        image: "img/prada-bag.png",
+        tag: "fashion",
+        link: "https://www.farfetch.com/pt/shopping/women/prada-large-leather-shoulder-bag-item-22619632.aspx?storeid=11245"
     }
     
 
